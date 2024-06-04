@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home with Login & Signup Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel = "stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <a class="logo" href="#">Brand name 
+            <img src = "https://st2.depositphotos.com/1768926/7866/v/450/depositphotos_78666192-stock-illustration-a-logo-sample-logo-for.jpg" alt = "logo">
+            <h2> Singapore Best Tuition Center </h2>
+        </a>
+        <ul class = "links">
+            <li><a href = "#" > Home </a></li>
+            <li><a href = "#" > Portfolio </a></li>
+            <li><a href = "#" > Courses </a></li>
+            <li><a href = "#" > About us </a></li>
+            <li><a href = "#" > Contact us </a></li>
+        </ul>
+            <button type="button" class="btn btn-light"><a href="logout.php"> Logout </a></button>
+        </nav>
+        <h1>Welcome <?php echo $fetch_info['username'] ?></h1>
+    </header>
+</body>
+</html>
